@@ -1,3 +1,7 @@
+Author: David Moe
+email: dmoe7@uoregon.edu
+
+
 FROM ubuntu:20.04
 MAINTAINER John Doe "noemail@website.domain"
 RUN apt-get update -y
