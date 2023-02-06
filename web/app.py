@@ -1,7 +1,7 @@
 import os
 import configparser
 
-from flask import Flask, render_template, abort
+from flask import Flask, render_template, abort, send_from_directory
 
 app = Flask(__name__, template_folder='pages')
 
