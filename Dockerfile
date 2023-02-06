@@ -1,9 +1,5 @@
-Author: David Moe
-email: dmoe7@uoregon.edu
-
-
 FROM ubuntu:20.04
-MAINTAINER John Doe "noemail@website.domain"
+MAINTAINER David Moe "dmoe7@uoregon.edu"
 RUN apt-get update -y
 RUN apt-get install python3.8 python3-pip -y
 COPY ./web /app
